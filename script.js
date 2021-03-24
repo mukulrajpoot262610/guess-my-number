@@ -11,7 +11,6 @@ const labelHighscore = document.getElementById("label-highscore");
 
 let value = Number(inputField.value);
 let number = Math.floor(Math.random() * 50);
-console.log(number);
 
 let life = 10;
 let highscore = 0;
@@ -53,7 +52,6 @@ btnCheck.addEventListener("click", () => {
 
 btnAgain.addEventListener('click', () => {
     number = Math.floor(Math.random() * 50);
-    console.log(number)
     inputField.value = "";
     labelCorrect.textContent = "";
     labelScore.textContent = `💖 Life: ${life=10}`;
