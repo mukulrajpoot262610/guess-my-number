@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Guess My Number !</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class='navbar'>
+            <button class="btn" id="btnAgain">Again !</button>
+            <h1 >Between 1 and 50</h1>
+        </nav>
+        <h1 class="label-heading">Guess My Number !</h1>
+        <div class="mystery-box">
+            <div class="mystery-number-box">
+                <h1 id='mystery-number'>?</h1>
+            </div>
+        </div>
+        <div class="game-area">
+            <div class="input">
+                <input type="number" class="input-field">
+                <button class="btn" id="btnCheck">Check !</button>
+            </div>
+            <div class="result">
+                <h1 id="label-correct"></h1>
+                <br>
+                <h1 id="label-score">💖 Life: 10</h1>
+                <h1 id="label-highscore">🎯 Highscore: 0</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
